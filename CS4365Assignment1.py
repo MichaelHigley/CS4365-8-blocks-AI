@@ -8,6 +8,7 @@ from sys import argv
 import numpy as np
 import abc
 import copy
+import heapq
 
 MAX_SEARCH_DEPTH = 10
 
@@ -117,7 +118,7 @@ class IDSSovler(Solver):
         self.states_queue = { 1: [(self.start_state, self.start_state)] }
         self.states_q += 1
 
-        while len(self.states_queue) > 0:
+        while len(self.states_queue) > 0 and depthlimit < MAX_SEARCH_DEPTH:
 
             depthlimit += 1
             self.states_queue[depthlimit] = list()

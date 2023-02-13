@@ -8,7 +8,7 @@ astar2 - A* algorithm with Manhattan distance (Not implemented)\
 input_file_path - path of file with 8 numbers and one * space seperated (example is included .csv)\
 
 2. An example input and output is below\
-Output is the path from the start state to the goal state as well as number of states enqueued and moves taken. First state printed will always be the start state\
+Output is the path from the start state to the goal state as well as number of states enqueued and moves taken. First state printed will always be the start state
 
 python CS4365Assignment1.py DFS input_file_8_blocks.csv  
 6 7 1\

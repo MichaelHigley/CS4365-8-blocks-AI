@@ -11,29 +11,29 @@ input_file_path - path of file with 8 numbers and one * space seperated (example
 Output is the path from the start state to the goal state as well as number of states enqueued and moves taken. First state printed will always be the start state
 
 python CS4365Assignment1.py DFS input_file_8_blocks.csv  
-6 7 1
-8 2 *
-5 4 3
+6 7 1\
+8 2 \*\
+5 4 3\
 
-6 7 1
-8 * 2
-5 4 3
+6 7 1\
+8 \* 2\
+5 4 3\
 
-6 7 1
-* 8 2
-5 4 3
+6 7 1\
+\* 8 2\
+5 4 3\
 
-* 7 1
-6 8 2
-5 4 3
+\* 7 1\
+6 8 2\
+5 4 3\
 
-7 * 1
-6 8 2
-5 4 3
+7 \* 1\
+6 8 2\
+5 4 3\
 
-7 8 1
-6 * 2
-5 4 3
+7 8 1\
+6 \* 2\
+5 4 3\
 States enqueued :  32
 Moves taken:  5
 
